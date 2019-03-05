@@ -4,7 +4,7 @@ const initialState = {
   counter: 0
 };
 
-// node redux-basic.js
+// node src/redux-basic.js
 const rootReducer = (state = initialState, action) => {
   if (action.type === "INC_COUNTER") {
     return {
